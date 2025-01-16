@@ -42,7 +42,7 @@ const App = () => {
         <div className="container mx-auto md:px-4 md:py-16 flex md:flex-row flex-col-reverse justify-evenly md:w-3/4 w-5/6">
           <div className='md:w-5/6'>
             <h2 className="sm:text-3xl font-bold text-center my-6 font-montserrat">About Me</h2>
-            <p className="md:text-md lg:text-lg leading-6 md:leading-7 lg:leading-9 text-wrap text-xs text-gray-900 font-sans font-normal line">
+            <p className="md:text-md lg:text-lg leading-6 md:leading-7 lg:leading-9 text-wrap text-sm text-gray-900 font-sans font-normal line">
               {/* Welcome to my portfolio! I am a passionate web developer, designer, and problem solver. Explore my projects, learn about my skills, and connect with me. */}
               Hi, I’m Joshua Menezes!
 I’m a Computer Engineering student at D.J. Sanghvi College of Engineering, driven by a passion for technology. With a strong foundation in programming and problem-solving, I enjoy turning complex challenges into elegant solutions.
