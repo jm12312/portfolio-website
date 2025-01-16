@@ -10,15 +10,15 @@ const App = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5010/api/home')  // Flask endpoint
+    axios.get('https://portfolio-website-backend-m210.onrender.com/api/home')  // Flask endpoint
       .then(response => setData(response.data.message))
       .catch(error => console.error("Error fetching data:", error));
 
   }, []);
-  // console.log(data);
+  console.log(data);
 
   return (
-    <div>
+    <div className='w-full'>
       {/* Header */}
       <Header />
 
