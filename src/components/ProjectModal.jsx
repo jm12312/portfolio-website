@@ -66,11 +66,11 @@ const ProjectModal = ({ project, onClose }) => {
           {/* Right side: Content */}
           <div className="w-full md:w-5/12 p-6 overflow-y-auto relative flex flex-col">
             {/* Project Details */}
-            <div className="pb-6 border-b border-gray-700/50 mb-4">
+            <div className="pb-3 border-b border-gray-700/50 mb-2">
               <h3 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-purple-400 mb-2">
                 {title}
               </h3>
-              <p className="text-md text-gray-300 italic mb-4">{headline}</p>
+              <p className="text-md text-gray-300 italic">{headline}</p>
             </div>
             
             {/* Project Info with scrollable area */}
